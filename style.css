@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h4{
+    
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 112.8px;
+    margin-top: 87px;
+    padding-left: 117px ;
+}
+h1{
+    color: #3A3A3A;
+    font-weight: 900;
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+
+}
+.top-heading{
+    padding-left: 117px ;
+    
+}
