@@ -23,3 +23,17 @@ h1{
     width: 100%;
     margin: 10px;
 }
+div>a{
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: antiquewhite;
+    border-radius: 41px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.fa-arrow-right{
+    padding-left: 5px;
+}
