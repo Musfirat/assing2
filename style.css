@@ -1,14 +1,15 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-image:  linear-gradient(to top right, #ffccff 5%, #ffffff 66%);
+    background-repeat: no-repeat;
 }
+
 h4{
     
     color: #3A3A3A;
     font-weight: 700;
     font-size: 20px;
-    margin-bottom: 112.8px;
-    margin-top: 87px;
-    padding-left: 5.85% ;
+  
 }
 h1{
     color: #3A3A3A;
@@ -16,6 +17,9 @@ h1{
     font-size: 3em;
     font-family: 'Poppins', sans-serif;
 
+}
+section{
+    display: flex;
 }
 /* common style for div */
 .top-heading{
@@ -36,4 +40,12 @@ div>a{
 }
 .fa-arrow-right{
     padding-left: 5px;
+}
+.top-heading img{
+    width: 500px;
+    height: 500px;
+    padding-left: 4%;
+    padding-top: 10%;
+
+
 }
