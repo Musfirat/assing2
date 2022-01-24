@@ -61,7 +61,7 @@ section{
 }
 
 .top-heading p{
-     font-size: 15px;
+    font-size: 15px;
     font-family: 'poppins',sans-serif;
     font-weight: 600;
     color: #3A3A3A;
@@ -362,11 +362,48 @@ footer{
   /* -----end---- */
 
   /* ----Break-points---- */
-@media only phone and (max-width:500px) {
-    body{
-        background-color: aquamarine;
+@media (max-width:688px) {
+    .menu{
+        visibility: hidden;
+    }
+    
+   
+    
+    .grid-items .card{
+        grid-template-columns: repeat(1 , 1fr);
+        
+    }
+    .card{
+        margin-left: 30%;
+    }
+    hr{
+        display: none;
+    }
+    .logos img{
+        padding: 10px 10px;
+        width: 65px;
+        
+    }
+    .logos a{
+        margin-left: 20px ;
     }
     section{
-        padding:0;
+      width: 100%;
     }
- }
+    .top-heading{
+        justify-content: center;
+        align-items: center;
+    }
+    .top-heading h4{
+        text-align: center;
+    }
+    .top-heading h1{
+        text-align: center;
+    }
+    .top-heading img{
+        display: none; 
+    }
+    .top-heading p{
+        text-align: center;
+    }
+}  
