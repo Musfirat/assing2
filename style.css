@@ -2,7 +2,8 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@300;400;600;700&display=swap');
 
-                 /* --**CSS styling starts**-- */
+              /* --------**CSS styling starts**-------
+                        --------------------- */
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -31,11 +32,20 @@ section{
     padding-top: 60px;
     background-color: #FFFAFA;
 }
-/* common style for div */
+/*------------------ common style for div---------------------
+                ------------------------- */
+   
 .top-heading{
     padding-left: 5.85% ;
     width: 100%;
     margin: 10px;
+}
+
+.top-heading p{
+     font-size: 15px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    color: #3A3A3A;
 }
 .top-heading a{
     background-color: #E02C6D;
@@ -49,6 +59,8 @@ section{
     
 }
 
+/* font awesome arrow style- */
+
 .fa-arrow-right{
     padding-left: 5px;
 }
@@ -61,7 +73,9 @@ section{
 
 }
  
-
+           /* ---------------------
+        ----nav logos of ecommerce sites----
+        --------------------------- */
 
 hr{
     width: 90%;
@@ -82,13 +96,11 @@ hr{
       width: 100px;
 }
 
-/* ----products style---- */
+/*           ----------------------
+             ----products style----
+           ----------------------            */
 
-/* .all-centered{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-} */
+   /* ----Heading style---- */
 
 .pro-head{
     text-align: center;
@@ -100,7 +112,7 @@ hr{
 
 }
 
-.grid-items {
+.grid-items .card {
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     grid-gap: 30px;
@@ -109,20 +121,21 @@ hr{
     align-items: center;
 }
 
+.card{
+    margin-left: 20%;
+    
+}
 
-.products-detail{
-    justify-content: center;
-    align-items: center;
-    background-color:#ffd1dc;
+.products-detail{    
+    background-color:#ffebf4;
     border-radius: 20px;
-
-
 }
 .products-detail .products img{
     Width:300px;
     Height:256px;
     margin: 17px 14px 15px;
    border-radius: 5px;
+
 }
 .products-info {
     margin-left: 14px;
@@ -134,10 +147,10 @@ hr{
     font-size: 28px;
     font-weight: 500;
 }
-.product-rate{
 
 
-}
+
+
 .currencies{
     font-size: 24px;
 }
@@ -147,7 +160,7 @@ hr{
    font-family: 'Inter', sans-serif;
    color: #787885;;
 }
-
+/* font awesome starts */
 .fa-star{
     font-size: 2px;  
 }
@@ -158,6 +171,9 @@ hr{
 .fa-star.empty{
     color: #aeaeae ;
 }
+
+  /* --------- */
+
 .rates{
     padding-left: 10px;
     color:#5E6366;
@@ -165,3 +181,131 @@ hr{
     font-weight: 700;
 ;
 }
+.content-ends{
+    padding-left: 80%;
+    padding-top: 20px;
+}
+.content-ends h5{
+    color:  #E02C6D ;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.content-ends a{
+    text-decoration: none;
+}
+       
+              /* ---Section 2 Ends----
+              ---------------------------- */
+
+
+              /* -------Section 3 Starts--------
+                      ------------------- */
+.last-image{
+    color:#0A0826;
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 98px;
+}
+.last-image p{
+    font-size: 16px;
+    font-family: 'poppins',sans-serif;
+}
+
+.last-image a{
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 8px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+      
+              /* ----Ends Section 3----
+             -------------------------- */
+
+   /* ---Next Page style--- */
+
+.next-content h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFAFA;
+    background-color:#E02C6D ;
+    width: 10%;
+    padding: 0px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+.next-content a{
+    text-decoration: none;
+   
+}
+.fa-arrow-left{
+    padding-right: 10px;
+}
+
+  /* ----Ends Next page style---- */
+
+     /*------------------------------------
+           -----Footer Of Website------
+        -------------------------------- */
+.end{
+    background-color: #d06087;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    text-align: center;
+}
+.close h3{
+   font-size: 24px;
+   font-weight: 700;
+   color:#FFFFFF;
+
+}
+.close h6{
+    color: #e8d5dc;
+}
+.purple{
+    color:#a8bdea;
+}
+
+       /* ---font awesome app icon--- */
+.fa-instagram{
+    padding-left: 5px;
+    font-size: 20px;
+    color: #ffff;
+}
+.fa-facebook{
+    padding-left:5px;
+    font-size: 20px;
+    color: #ffff;
+}
+.fa-discord{
+    padding-left: 5px;
+    font-size: 20px;
+    color: #ffff;
+}
+.fa-atom{
+    padding-left: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.fa-instagram:hover{
+    color: #ffa600;
+}
+.fa-facebook:hover{
+    color: #ffa600;
+}
+.fa-discord:hover{
+    color: #ffa600;
+}
+.fa-atom:hover{
+    color:#ffa600;
+}
+
+      /* ---------- */
