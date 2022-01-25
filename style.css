@@ -31,6 +31,7 @@ h1{
     padding-top: 50px;
     font-family: 'poppins',sans-serif;
     position: sticky;
+    top: 0;
 }
 
 .menu a{
