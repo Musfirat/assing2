@@ -366,6 +366,7 @@ footer{
   /* ----Break-points---- */
 @media (max-width:688px) {
     section{
+        width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
@@ -380,7 +381,7 @@ footer{
     .top-heading{
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 80%;
     }
     .top-heading img{
         width: 100%;
@@ -396,9 +397,9 @@ footer{
     .top-heading p{
         text-align: center;
     }
-    .menu{
+    /* .menu{
         display: none;
-    }
+    } */
     hr{
         display: none;
     }
